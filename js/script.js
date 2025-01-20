@@ -38,7 +38,7 @@ window.onload = function () {
     if (possibleKeystrokes.includes(key)) {
       event.preventDefault();
 
-      // Update player's directionX and directionY based on the key pressed
+      // Update player's directionX and directionY 
       switch (key) {
         case "ArrowLeft":
           game.player.directionX = -1.5;

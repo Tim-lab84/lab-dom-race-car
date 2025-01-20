@@ -21,12 +21,17 @@
       <div id="game-container">
         <!-- #game-screen is initially hidden using CSS style display: none -->
         <div id="game-screen"></div>
+        <div id="game-info">
+          <span id="lives">Lives: 3</span>
+          <span id="score">Score: 0</span>
+        </div>
       </div>
 
       <!-- #game-end is initially hidden using CSS style display: none -->
       <div id="game-end">
         <img src="./images/logo.png" alt="" class="logo-img" />
         <h1>Game Over</h1>
+        <p id="final-score">Your score: 0</p>
         <br />
         <button id="restart-button">Restart</button>
       </div>
