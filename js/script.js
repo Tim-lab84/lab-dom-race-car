@@ -38,19 +38,19 @@ window.onload = function () {
     if (possibleKeystrokes.includes(key)) {
       event.preventDefault();
 
-      // Update player's directionX and directionY 
+      // Update player's directionX and directionY
       switch (key) {
         case "ArrowLeft":
-          game.player.directionX = -1.5;
+          game.player.directionX = -2;
           break;
         case "ArrowUp":
-          game.player.directionY = -1.5;
+          game.player.directionY = -2;
           break;
         case "ArrowRight":
-          game.player.directionX = 1;
+          game.player.directionX = 2;
           break;
         case "ArrowDown":
-          game.player.directionY = 1;
+          game.player.directionY = 2;
           break;
       }
     }
